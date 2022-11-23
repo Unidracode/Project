@@ -209,4 +209,43 @@ const mockData = {
   },
 };
 
+export const mockExpense = [
+  {
+    id: 0,
+    value: '50',
+    currency: 'USD',
+    method: 'Dinheiro',
+    tag: 'Alimentação',
+    description: 'teste1',
+    exchangeRates: { ...mockData },
+  },
+  {
+    id: 1,
+    value: '1',
+    currency: 'BTC',
+    method: 'Cartão de Crédito',
+    tag: 'Saúde',
+    description: 'teste2',
+    exchangeRates: { ...mockData },
+  },
+];
+
+export const currencies = [
+  'USD',
+  'CAD',
+  'GBP',
+  'ARS',
+  'BTC',
+  'LTC',
+  'EUR',
+  'JPY',
+  'CHF',
+  'AUD',
+  'CNY',
+  'ILS',
+  'ETH',
+  'XRP',
+  'DOGE',
+];
+
 export default mockData;
